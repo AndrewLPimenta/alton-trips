@@ -1,1 +1,9 @@
-{"projectId":"prj_eTGFSHId7OOuf2DtpBTfUrpbX6Ks","orgId":"team_AVuEBgcXPRD6VJuFmdLOk8oG"}
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@vercel/static-build"
+        }
+    ]
+}
