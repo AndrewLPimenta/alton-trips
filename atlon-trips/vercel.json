@@ -3,12 +3,12 @@
     "builds": [
         {
             "src": "index.js",
-            "use": "@vercel/static-build"
+            "use": "react-scripts build"
         }
     ],
     "routes": [
         {
-            "src": "./src/index.js",
+            "src": "index.js",
             "dest": "index.html"
         }
     ]
